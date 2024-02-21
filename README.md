@@ -1,5 +1,5 @@
 # elevator
-Elevator coding challenge for Outside Analytics
+Elevator coding challenge for Outside Analytics to simulate an Elevator given a Starting Floor and a list of Floors to stop at.
 
 # install node
 Install node here: https://nodejs.org/en/download
