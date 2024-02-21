@@ -58,7 +58,8 @@ class Elevator {
         this.#floorsVisited.push(floor)
         
         // *** not ideal - thought using async/await with Promises & setTimeout() would suffice for a 
-        // sleep function (as used in JS in the Browser) but couldn't get that to work in Node
+        // sleep function (as used in JS in the Browser) but couldn't get that to work in Node as it is inherently
+        // asynchronous 
         execSync(`sleep ${DOOR_OPEN_TIME}`)
 
         // remove this floor from the floorsToStopAt
