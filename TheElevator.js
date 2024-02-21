@@ -4,10 +4,10 @@ const BOTTOM_FLOOR = 1
 const TOP_FLOOR = 52
 
 // apologies for not clarify what the 10 was here -> 'Single floor travel time: 10'
-// 10ms seems way to fast and 10 secs seems to long - decided on 1 sec
-const FLOOR_TRAVEL_TIME = 1
-// thought it would be fun to have the elevator stop and the doors open with a delay of 2 sec 
-const DOOR_OPEN_TIME = 2
+// 10ms seems way to fast and 10 secs seems to long - decided on .5 sec
+const FLOOR_TRAVEL_TIME = .5
+// thought it would be fun to have the elevator stop and the doors open with a delay of 1 sec 
+const DOOR_OPEN_TIME = 1
 
 class Elevator {
     // private attributes

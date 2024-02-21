@@ -5,9 +5,9 @@ elevator takes a starting floor and a comma seperate list of floors to stop at:
 elevator.js start=12 floor=2,9,1,32
 
 Assumptions/Decisions made:
-1) Elevator will start moving down first, stopping at closest floor
-2) To keep it fun, have a time delay when opening door. 2 sec delay
-3) Travel time between floors, 1 sec
+1) Elevator will start moving DOWN first, stopping at closest floor, then UP
+2) To keep it fun, have a time delay when opening door. 1 sec delay
+3) Travel time between floors, .5 sec
 4) Computes Total Travel Time, not including the door opening
 5) TOP_FLOOR = 52 (arbitrary)
 6) BOTTOM_FLOOR = 1
