@@ -4,7 +4,7 @@ Elevator coding challenge for Outside Analytics
 # install node
 Install node here: https://nodejs.org/en/download
 
-#clone repo from terminal/command line
+# clone repo from terminal/command line
 % git clone https://github.com/jdipallo/elevator.git
 % cd elevator
 
